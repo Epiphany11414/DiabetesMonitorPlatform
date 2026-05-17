@@ -1,0 +1,26 @@
+{
+  "resourceType": "Observation",
+  "id": "glucose-obs-001",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "15074-8",
+        "display": "Glucose [Moles/volume] in Capillary blood --pre-meal"
+      }
+    ],
+    "text": "Capillary glucose"
+  },
+  "subject": {
+    "reference": "Patient/patient-123"
+  },
+  "effectiveDateTime": "2026-05-18T08:45:00Z",
+  "valueQuantity": {
+    "value": 11.2,
+    "unit": "mmol/L",
+    "system": "http://unitsofmeasure.org",
+    "code": "mmol/L"
+  }
+}
+
